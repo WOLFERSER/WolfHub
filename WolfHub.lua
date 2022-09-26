@@ -22,7 +22,7 @@ Credits:AddButton({
 })
 
 Credits:AddButton({
-	Name = "Owner of hub: WOLF#30303",
+	Name = "Owner of hub: WOLF#3030",
 	Callback = function()
     print('Owner of hub: WOLF#3030')
   	end    
@@ -31,8 +31,22 @@ Credits:AddButton({
 BloxFruits:AddButton({
 	Name = "Orange Cheat",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
   	end    
+})
+
+BloxFruits:AddButton({
+	Name = "Blue Cheat",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+  	end    
+})
+
+BloxFruits:AddButton({
+	Name = "Red Cheat (with key)",
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end 
 })
 
 OrionLib:Init()
