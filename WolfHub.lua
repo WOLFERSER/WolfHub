@@ -22,7 +22,7 @@ Credits:AddButton({
 })
 
 Credits:AddButton({
-	Name = "Owner of hub: WOLF#3030",
+	Name = "Owner of hub: WOLF#30303",
 	Callback = function()
     print('Owner of hub: WOLF#3030')
   	end    
